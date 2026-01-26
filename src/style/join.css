@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+.join {
+  width: 100%;
+
+}
+
+.join h2 {
+  text-align: center;
+  background: #ccc;
+  padding: 3.5% 0;
+  font-size: 1.3rem;
+}
+
+.join form {
+  padding: 5%;
+}
+
+.join form p:first-child button {
+  display: inline-block !important;
+  width: 20%;
+  margin: 10px 0 0 0;
+}
+
+.join form p:nth-child(6) input {
+  margin: 0 0.5rem 0 0; 
+  width: 15px !important;
+}
+
+.join form p {
+  padding: 10px 0;
+
+}
+
+.join form p:not(:nth-child(6)) label {
+  display: none;
+}
+
+.join form p:not(:nth-child(6)) input {
+  width: 100%;
+  height: 30px;
+}
+
+.join form button {
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+  color: var(--txtColor1);
+  background: rgb(226, 70, 70);
+}
+
+.join form p:last-child {
+  text-align: center;
+}
+
+.join form p:last-child a {
+  color: var(--main_txt_color);
+  padding: 0 5px;
+}
+
+.join_btn_box {
+  width: 100%;
+  text-align: center;
+  /* padding: 5%; */
+}
+
+.join_btn_box p {
+  font-size: 1.2rem;
+}
+
+.join_btn_box p span {
+  padding-top: 0.5rem;
+  display: block;
+  font-size: 0.8rem;
+}
+
+.join_btn {
+  width: 90%;
+  border: none;
+  padding: 10px;
+  color: var(--main_txt_color);
+  border: 1px solid #ccc;
+  background: none;
+  margin: 1.5rem 0;
+}

@@ -26,7 +26,7 @@ function Login(props) {
   const handleSubmit = (e) => {
     e.preventDefault();//새로고침 방지
 
-    axios.post('http://localhost:9070/login', form)
+    axios.post('https://port-0-backend-express-server-mkvwe8rkb7d9ea30.sel3.cloudtype.app/ginipet_login', form)
       .then(res => {//성공시 작업
         //jwt토큰저장
         localStorage.setItem('token', res.data.token);
@@ -107,5 +107,6 @@ function Login(props) {
     </main>
   );
 }
+
 
 export default Login;
